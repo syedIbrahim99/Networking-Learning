@@ -17,8 +17,6 @@ Imagine you want a **letter from a friend**. You write the letter and ask your f
 * You type: `www.google.com` → Browser sends **HTTP request**
 * Google server replies → Browser shows **Google homepage**
 
----
-
 **Extra:**
 
 * If you use **HTTPS**, it’s like sealing the letter in an **envelope** so no one else can read it.
