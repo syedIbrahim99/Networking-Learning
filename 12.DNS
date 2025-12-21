@@ -1,0 +1,145 @@
+
+---
+
+## **Topic 12: DNS (Domain Name System)**
+
+### 🧒 Simple Meaning
+
+**DNS = Internet phone book 📒**
+
+It changes:
+
+```
+www.google.com
+```
+
+into:
+
+```
+142.250.195.46
+```
+
+Computers need **numbers**, humans like **names**.
+
+---
+
+## 🧱 Simple Block Diagram (Big Picture)
+
+```
+You (Browser)
+     |
+     v
+ DNS Server
+     |
+     v
+ Website Server (IP Address)
+```
+
+---
+
+## 📞 Real-Life Example (Phone Contact)
+
+```
+You → "Call Amma"
+Phone → Finds Number
+Phone → Calls Number
+```
+
+👉 DNS does the same thing for websites.
+
+---
+
+## 🔄 DNS Resolution – Step by Step (Block Diagram)
+
+### Example: You type **[www.google.com](http://www.google.com)**
+
+```
+[ Browser ]
+     |
+     | 1. "What is IP of google.com?"
+     v
+[ DNS Server ]
+     |
+     | 2. "Here is the IP"
+     v
+[ IP Address: 142.250.195.46 ]
+     |
+     | 3. Connect to IP
+     v
+[ Google Web Server ]
+```
+
+---
+
+## 🧱 Detailed DNS Flow (Still Simple)
+
+```
+Browser
+   |
+   v
+Local DNS (ISP)
+   |
+   v
+Root DNS
+   |
+   v
+TLD DNS (.com)
+   |
+   v
+Authoritative DNS
+   |
+   v
+IP Address Returned
+```
+
+📌 Don’t worry about remembering names — just know **DNS keeps asking until it finds the IP**.
+
+---
+
+## 🏠 Address Example (Block Style)
+
+```
+Website Name        IP Address
+-------------      -------------
+google.com   --->  142.250.195.46
+amazon.com   --->  176.32.103.205
+```
+
+---
+
+## 🌐 After DNS (What Happens Next)
+
+```
+Browser
+   |
+   | HTTP / HTTPS Request
+   v
+Web Server
+   |
+   | HTML Response
+   v
+Web Page Displayed
+```
+
+---
+
+## 🧠 One-Line Summary (Easy)
+
+> DNS converts website names into IP addresses so browsers can find the correct server.
+
+---
+
+## 🎯 Super Easy Memory Trick
+
+```
+DNS = Name ➝ Number
+```
+
+---
+
+## 🧠 Interview-Friendly Line
+
+> DNS is a system that translates domain names into IP addresses to allow communication between browsers and servers.
+
+---
+
