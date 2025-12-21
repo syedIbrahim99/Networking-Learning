@@ -1,11 +1,7 @@
-Great 👍 Let’s explain **Topic 2: Difference between HTTP and HTTPS**
-👉 *Explain like you’re 5, with a simple story.*
-
----
 
 ## **Topic 2: Difference between HTTP and HTTPS**
 
-### 🧒 Simple Story
+###  Simple Story
 
 Imagine you want to send a **secret message** to your friend.
 
@@ -80,28 +76,3 @@ Think of **ports like doors** in a building:
 
 ---
 
-## 🌍 Real-Life Example
-
-* **HTTP:** Reading a public blog
-* **HTTPS:**
-
-  * Gmail login
-  * Online shopping
-  * Bank website
-  * Payment pages
-
-That’s why you see a **🔒 lock symbol** in the browser.
-
----
-
-### 🧠 One-Line Memory Trick
-
-> **HTTP = Open & Unsafe**
-> **HTTPS = Encrypted & Safe**
-
----
-
-Next topic suggestion:
-➡️ **“How does a typical HTTP request look like?”** (I’ll explain it like ordering food 🍔)
-
-Just say **“next topic”** 👍
